@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FullCalendar Styles */
+.fc {
+  @apply font-sans;
+}
+
+.fc .fc-toolbar-title {
+  @apply text-xl font-semibold;
+}
+
+.fc .fc-button {
+  @apply bg-white border border-gray-300 text-gray-700 hover:bg-gray-50;
+}
+
+.fc .fc-button-primary {
+  @apply bg-blue-500 border-blue-500 text-white hover:bg-blue-600;
+}
+
+.fc .fc-daygrid-day-number {
+  @apply text-gray-700 hover:text-blue-600;
+}
+
+.fc .fc-day-today {
+  @apply bg-blue-50;
+}
+
+.fc .fc-event {
+  @apply cursor-pointer border-0;
+}
+
+.fc .fc-timegrid-slot {
+  @apply h-12;
+}
